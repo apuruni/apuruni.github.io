@@ -1,7 +1,6 @@
 ---
 sitemap: false
 ---
-
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
 <title type="text">{{ site.title }}</title>
@@ -36,7 +35,7 @@ sitemap: false
   </author>
   <content type="html">
     {{ post.content | xml_escape }}
-    {% include _feed-footer.html %}
+    {% include feed-footer.html %}
   </content>
 </entry>
 {% endfor %}
