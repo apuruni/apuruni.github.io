@@ -17,4 +17,4 @@ decoder.decodeObjectForKey("stuct_name") as StructA
 のコンパイルエラーが発生する。
 
 ## 結論
-Cocoa Frameworkのクラスを使うなら、swiftのstructを避けるべき。
+Cocoa FrameworkのNSCoderクラスを使って永続化する場合、swiftのstructを避けるべき。
