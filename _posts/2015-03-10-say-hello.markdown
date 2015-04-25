@@ -10,3 +10,16 @@ image:
 date: 2015-03-10T14:37:16+09:00
 ---
 
+> Swiftのクラスは全てNSObjectを継承すること。
+> 無理にNSArray, NSMutableArrayをswiftのArray型に移行しないこと。
+
+> Swift Arrayクラスで定義したメソッドはObjective-C側で参照できない。
+> まずはクラス名をキープする。
+> TestプロジェクトもBridge-Headerの設定が必要。
+
+> strucの配列をNSCoderでencodeできない。
+Extra argument 'forKey' in call
+のエラーになる
+
+> Relayを実装するため、モデルのProxyを実装する。
+Commandパターンと戦った。
